@@ -53,3 +53,79 @@ a {
     height: auto;
 }
 
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+header > img {
+    width: 120px;
+    height: auto;
+}
+header > nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+header > nav > ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header > nav > ul > li > a {
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+header > nav > ul > li > a:hover {
+    color: var(--primary-color);
+}
+
+/* Adventures */
+.adventure {
+    padding: 40px 20px;
+    text-align: center;
+}
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+.adventure-gallery > figure {
+    margin: 0;
+    flex: 1;
+}
+.adventure-gallery > figure > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.adventure-gallery > figure > figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+}
+.sociallinks {
+    display: flex;
+    gap: 15px;
+}
+.sociallinks > a > img {
+    width: 20px;
+    transition: transform 0.3s;
+}
+
