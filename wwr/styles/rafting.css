@@ -187,6 +187,7 @@ header > nav > ul > li > a:hover {
 
 .call-to-action h2 {
     margin-bottom: 1rem;
+    color: white;
 }
 
 .call-to-action p {
